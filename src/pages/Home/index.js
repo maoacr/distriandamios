@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-import { Titulo } from './styles'
+import Navbar from '../../components/Navbar';
 
 const Home = () => {
   return (
-    <Titulo>Home</Titulo>
+    <Fragment>
+      <Navbar />
+    </Fragment>
   );
 };
 
