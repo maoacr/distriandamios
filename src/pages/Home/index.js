@@ -1,12 +1,18 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+
+import { Layout } from './styles';
 
 import Navbar from '../../components/Navbar';
+import Button from '../../components/Button';
+
+
 
 const Home = () => {
   return (
-    <Fragment>
+    <Layout>
       <Navbar />
-    </Fragment>
+      <Button />
+    </Layout>
   );
 };
 

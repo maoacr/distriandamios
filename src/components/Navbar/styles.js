@@ -11,9 +11,23 @@ export const Menu = styled.nav`
 `
 
 export const MenuItems = styled.ul`
-    display: none;
 `
 
+export const Link = styled.a`
+    text-decoration: none;
+    list-style: none;
+    color: black;
+`
+
+export const ListItems = styled.li`
+    line-height: 80px;
+    margin: 0 10px;
+    cursor: pointer;
+    display: none;
+    @media (min-width: 768px) {
+        display: inline-block;
+    }
+`
 export const Logotipo = styled.img`
     width: 40px;
     height: 40px;
@@ -21,4 +35,7 @@ export const Logotipo = styled.img`
 export const Hamburguer = styled.img`
     width: 40px;
     height: 40px;
+    @media (min-width: 768px) {
+        display: none;
+    }
 `
