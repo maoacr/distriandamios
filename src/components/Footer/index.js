@@ -1,6 +1,15 @@
 import React from 'react';
 
-import { FooterContainer, Rrss, Distriandamios, RrssIcons, RrssIcon, LegalWrapper, LegalItems } from './styles';
+import { 
+  FooterContainer,
+  Rrss,
+  Distriandamios,
+  RrssIcons,
+  RrssIcon, 
+  LegalWrapper,
+  LegalItems,
+  Maoacr,
+  Parrafo } from './styles';
 
 import LogoMain from '../../assets/tipografiaWhite.svg';
 import Facebook from '../../assets/facebook.svg';
@@ -11,14 +20,14 @@ import Linkedin from '../../assets/linkedin.svg';
 const Footer = () => {
   return(
     <FooterContainer>
-      <Distriandamios src={LogoMain} />
+      <Distriandamios src={LogoMain} alt="Logo de distriandamios"/>
       <Rrss>
-        <p>Únete a nuestras redes sociales y haz parte de nuestra gran familia</p>
+        <Parrafo>Únete a nuestras redes sociales y haz parte de nuestra comunidad</Parrafo>
         <RrssIcons>
-          <a><RrssIcon src={Facebook} /></a>
-          <a><RrssIcon src={Twitter} /></a>
-          <a><RrssIcon src={Instagram} /></a>
-          <a><RrssIcon src={Linkedin} /></a>
+          <a href="https://www.facebook.com/distriandamios"><RrssIcon src={Facebook} alt="Link to our Facebook page"/></a>
+          <a href="https://twitter.com/distriandamios"><RrssIcon src={Twitter} alt="Link to our Twitter profile"/></a>
+          <a href="https://www.instagram.com/distriandamio"><RrssIcon src={Instagram} alt="Link to our Instagram profile"/></a>
+          <a href="https://www.linkedin.com/company/distriandamios-sas/"><RrssIcon src={Linkedin} alt="Link to our Linkedin page"/></a>
         </RrssIcons>
         <LegalWrapper>
           <LegalItems><small>Contáctenos</small></LegalItems>
@@ -28,8 +37,7 @@ const Footer = () => {
           <LegalItems><small>Términos y condiciones</small></LegalItems>
         </LegalWrapper>
       </Rrss>
-
-      <small>Sitio web desarrollado por <a herf="https://maoacr.github.io/" >@maoacr</a></small>
+      <small>Sitio web desarrollado por <Maoacr href="https://maoacr.github.io/">@maoacr</Maoacr></small>
     </FooterContainer>
   );
 };

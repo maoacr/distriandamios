@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Contact from './pages/Contact';
 import AboutUs from './pages/AboutUs';
 import ProductsAndServices from './pages/ProductsAndServices';
+import PageAndamioConvencional from './pages/PageAndamioConvencional'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="/contact" component={Contact}/>
           <Route path="/distriandamios" component={AboutUs}/>
           <Route path="/productosyservicios" component={ProductsAndServices}/>
+          <Route path="/andamioconvencional" component={PageAndamioConvencional} />
     </Switch>
   );
 }

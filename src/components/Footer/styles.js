@@ -3,11 +3,11 @@ import { Colors } from '../../utils/Constants'
 
 export const Distriandamios = styled.img`
   width: 220px;
-  padding: 20px;
+  padding: 30px 0px 10px;
 `
 export const FooterContainer = styled.footer`
   width: 100%;
-  height: 320px;
+  height: 350px;
   background: #e11432;
   background: -moz-linear-gradient(-45deg, #e11432 0%, #92272c 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #e11432), color-stop(100%, #92272c));
@@ -24,12 +24,11 @@ export const Rrss = styled.div`
   font-size: 12px;
 `
 export const Parrafo = styled.p`
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 `
 export const RrssIcons = styled.div`
-
 `
 export const RrssIcon = styled.img`
   width: 20px;
@@ -44,4 +43,8 @@ export const LegalItems = styled.a`
   padding: 0 5px;
   margin-left: auto;
   margin-right: auto;
+`
+export const Maoacr = styled.a`
+  text-decoration: none;
+  color: ${Colors.white}
 `

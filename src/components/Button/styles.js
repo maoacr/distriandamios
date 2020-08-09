@@ -7,8 +7,10 @@ export const Link = styled.a`
 export const HomeButton = styled.button`
   width: 90%;
   border: none;
-  border-radius: 10px;
-  padding: 15px;
+  border-radius: 5px;
+  padding: 12px;
   background-color: ${Colors.mainRed};
-  color: ${Colors.white}
+  color: ${Colors.white};
+  font-size: 16px;
+  font-weight: bold;
 `
