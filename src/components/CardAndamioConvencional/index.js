@@ -1,12 +1,12 @@
 import React from 'react';
 
 import AndamioConvencional from '../../assets/andamio-convencional.jpg';
-import { CardWrapper, Andamio, Description, Family, Type } from './styles';
+import { CardWrapper, Andamio, Description, Family, Type, LinkCard } from './styles';
 
 export const CardAndamioConvencional = () => {
 
   return(
-    <a href="/andamioconvencional">
+    <LinkCard href="/andamio-convencional">
       <CardWrapper>
         <Andamio src={AndamioConvencional} alt="Andamio convencional"></Andamio>
         <Description>
@@ -14,7 +14,7 @@ export const CardAndamioConvencional = () => {
           <Type>Convencional</Type>
         </Description>
       </CardWrapper>
-    </a>
+    </LinkCard>
   );
 }
 

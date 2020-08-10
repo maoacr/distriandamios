@@ -12,7 +12,7 @@ const Navbar = () => {
             <Logotipo src={Logo} alt='Logo de Distriandamios' />
             <MenuItems>
                 <ListItems><Link href='/distriandamios'>Quienes somos</Link></ListItems>
-                <ListItems><Link href='/productosyservicios'>Productos y servicios</Link></ListItems>
+                <ListItems><Link href='/productos-y-servicios'>Productos y servicios</Link></ListItems>
                 <ListItems><Link href='/contact'>Contacto</Link></ListItems>
             </MenuItems>
             <Hamburguer src={HambMenu} alt='Menu  hamburguesa'></Hamburguer>
