@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { Layout } from './styles';
+import { Layout, IlustracionWrapper, Ilustracion, Distriandamios } from './styles';
+
+import Logotipo from '../../assets/tipografia.svg';
 
 import Navbar from '../../components/Navbar';
 import Button from '../../components/Button';
@@ -15,7 +17,10 @@ const Home = () => {
   return (
     <Layout>
       <Navbar />
-      <img src={Andamio} alt="Ilustración de un andamio con personal de trabajo"></img>
+      <Distriandamios src={Logotipo} alt="Logotipo de Distriandamios"/>
+      <IlustracionWrapper>
+        <Ilustracion src={Andamio} alt="Ilustración de un andamio con personal de trabajo"></Ilustracion>
+      </IlustracionWrapper>
       <Button />
       <Cards />
       <Asesorados />

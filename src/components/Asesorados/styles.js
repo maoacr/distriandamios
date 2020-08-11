@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Colors } from '../../utils/Constants';
 
 export const Container = styled.div`
   width: 100%;
@@ -9,12 +10,9 @@ export const Container = styled.div`
   margin: 0 0 30px;
   `
 export const Carousel = styled.div`
-  width: 170%;
-  height: 50px;
-  scroll-margin-top: 50px;
+  width: 200%;
 `
 export const Aliado = styled.img`
-  width: 50px;
   height: 50px;
   padding: 0 20px;
   cursor: crosshair;

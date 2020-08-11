@@ -2,9 +2,11 @@ import React from 'react';
 
 import { Link, HomeButton } from './styles';
 
+const Message = "https://wa.link/6g0yiw";
+
 const Button = () => {
   return(
-    <Link><HomeButton>Solicitar andamio</HomeButton></Link>
+    <Link href={Message}><HomeButton>Solicitar andamio</HomeButton></Link>
   );
 };
 
