@@ -7,12 +7,13 @@ export const Layout = styled.div`
 `
 export const IlustracionWrapper = styled.div`
   width: 100%;
-  object-fit: cover;
+  overflow: hidden;
   margin: 30px 0;
 `
 
 export const Ilustracion = styled.img`
   width: 150%;
+  object-fit: cover;
 `
 export const Distriandamios = styled.img`
   width: 80%;

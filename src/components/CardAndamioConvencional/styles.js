@@ -10,7 +10,7 @@ export const LinkCard = styled.a`
 
 export const CardWrapper = styled.div`
   width: 90%;
-  height: 70px;
+  height: 90px;
   border-radius: 10px;
   display: flex;
   margin-left: auto;
@@ -19,15 +19,15 @@ export const CardWrapper = styled.div`
   box-shadow: 5px 5px 5px #e7e7e7;
 `
 export const Andamio = styled.img`
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   border-radius: 10px;
 `
 export const Description = styled.div`
   margin-top: auto;
   margin-bottom: auto;
   text-align: left;
-  padding-left: 15px;
+  padding-left: 10px;
   align-items: center;
 `
 export const Family = styled.h5`

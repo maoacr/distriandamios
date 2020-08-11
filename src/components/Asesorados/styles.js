@@ -11,9 +11,15 @@ export const Container = styled.div`
   `
 export const Carousel = styled.div`
   width: 200%;
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
 `
 export const Aliado = styled.img`
   height: 50px;
   padding: 0 20px;
-  cursor: crosshair;
+`
+
+export const Titulo = styled.h3`
+  padding: 0 20px;
 `

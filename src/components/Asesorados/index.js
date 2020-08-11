@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Carousel, Container, Aliado } from './styles'
+import { Carousel, Container, Aliado, Titulo } from './styles'
 
 import AliadoUno from '../../assets/AliadoUno.jpeg';
 import AliadoDos from '../../assets/AliadoDos.jpeg';
@@ -10,7 +10,7 @@ import AliadoCuatro from '../../assets/AliadoCuatro.jpeg';
 const Asesorados = () => {
   return(
     <>
-      <h3>Hemos asesorado compañias increibles !</h3>
+      <Titulo>Hemos asesorado compañias increibles !</Titulo>
       <Container>
         <Carousel>
           <Aliado src={AliadoUno} alt=""/>
