@@ -3,15 +3,22 @@ import React, { useState } from 'react';
 import {
     Menu,
     Hamburguer,
+    HamburguerClose,
     MenuItems,
     MenuItems2,
     Logotipo,
     ListItems,
-    ListItems2,
-    Link
+    Link,
+    MenuMobile,
+    ListItemsMobile,
+    LinkMobile,
+    LogotipoMenu,
+    MenuDivider,
+    HeaderMenu
 } from "./styles"
 
 import HambMenu from '../../assets/hamburguer.svg';
+import HambClose from '../../assets/HamburguerClose.svg'
 import Logo from '../../assets/logo.svg';
 
 const Navbar = () => {
@@ -21,22 +28,31 @@ const Navbar = () => {
     }
     return(
         <Menu>
-            <Logotipo src={Logo} onClick={handleMenu} alt='Logo de Distriandamios' />
+            <a href='/' ><Logotipo src={Logo} alt='Logo de Distriandamios' /></a>
             {
                 menu
                     ? (
-                        <MenuItems>
-                            <ListItems><Link href='/distriandamios'>Quienes somos</Link></ListItems>
-                            <ListItems><Link href='/productos-y-servicios'>Productos y servicios</Link></ListItems>
-                            <ListItems><Link href='/contact'>Contacto</Link></ListItems>
-                        </MenuItems>
+                            <MenuItems>
+                                <ListItems><Link href='/distriandamios'>Quienes somos</Link></ListItems>
+                                <ListItems><Link href='/productos-y-servicios'>Productos y servicios</Link></ListItems>
+                                <ListItems><Link href='/contact'>Contacto</Link></ListItems>
+                            </MenuItems>
                     )
                     : (
-                        <MenuItems2>
-                            <ListItems><Link href='/distriandamios'>Quienes somos</Link></ListItems>
-                            <ListItems><Link href='/productos-y-servicios'>Productos y servicios</Link></ListItems>
-                            <ListItems><Link href='/contact'>Contacto</Link></ListItems>
-                        </MenuItems2>
+                        <MenuMobile>
+                            <HeaderMenu>
+                                <LogotipoMenu src={Logo} alt='Logo de Distriandamios' />
+                                <HamburguerClose onClick={handleMenu} src={HambClose} alt='Menu  hamburguesa'></HamburguerClose>
+                            </HeaderMenu>
+                            <MenuItems2>
+                                <ListItemsMobile><LinkMobile href='/distriandamios'>Quienes somos</LinkMobile></ListItemsMobile>
+                                <MenuDivider></MenuDivider>
+                                <ListItemsMobile><LinkMobile href='/productos-y-servicios'>Productos y servicios</LinkMobile></ListItemsMobile>
+                                <MenuDivider></MenuDivider>
+                                <ListItemsMobile><LinkMobile href='/contact'>Contacto</LinkMobile></ListItemsMobile>
+                                <MenuDivider></MenuDivider>
+                            </MenuItems2>
+                        </MenuMobile>
                     )
             }
 

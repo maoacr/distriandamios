@@ -6,6 +6,7 @@ import AliadoUno from '../../assets/AliadoUno.jpeg';
 import AliadoDos from '../../assets/AliadoDos.jpeg';
 import AliadoTres from '../../assets/AliadoTres.jpeg';
 import AliadoCuatro from '../../assets/AliadoCuatro.jpeg';
+import AliadoCinco from '../../assets/AliadoCinco.jpeg';
 
 const Asesorados = () => {
   return(
@@ -17,6 +18,7 @@ const Asesorados = () => {
           <Aliado src={AliadoDos} alt=""/>
           <Aliado src={AliadoTres} alt=""/>
           <Aliado src={AliadoCuatro} alt=""/>
+          <Aliado src={AliadoCinco} alt="" />
         </Carousel>
       </Container>
     </>

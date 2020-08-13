@@ -7,10 +7,10 @@ export const Container = styled.div`
   position: relative;
   margin: 0;
   overflow: scroll;
-  margin: 0 0 30px;
+  margin: 0 0;
   `
 export const Carousel = styled.div`
-  width: 200%;
+  width: 235%;
   @media screen and (min-width: 768px) {
     width: 100%;
   }
