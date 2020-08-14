@@ -29,7 +29,16 @@ export const Distriandamios = styled.img`
   @media screen and (min-width: 768px) {
     width: 30%;
     position: absolute;
+    top: 18%;
+    left: 100px;
+  }
+  @media screen and (min-width: 1280px) {
+    left: 180px;
+    top: 25%;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 30%;
+    position: absolute;
     top: 30%;
-    left: 150px;
   }
 `
