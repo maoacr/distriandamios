@@ -7,7 +7,7 @@ export const Distriandamios = styled.img`
 `
 export const FooterContainer = styled.footer`
   width: 100%;
-  height: 350px;
+  height: 330px;
   background: #e11432;
   background: -moz-linear-gradient(-45deg, #e11432 0%, #92272c 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #e11432), color-stop(100%, #92272c));

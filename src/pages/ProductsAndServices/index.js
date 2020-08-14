@@ -1,9 +1,14 @@
 import React from 'react';
+import { Layout } from './styles';
 
-const ProductsAndServices = () => {
+import Navbar from '../../components/Navbar';
+
+const ProductsYServices = () => {
     return(
-        <h1>Productos y servicios</h1>
-    )
-}
+        <Layout>
+            <Navbar />
+        </Layout>
+    );
+};
 
-export default ProductsAndServices;
+export default ProductsYServices;

@@ -1,8 +1,13 @@
 import React from 'react';
+import { Layout } from './styles';
+
+import Navbar from '../../components/Navbar';
 
 const Contact = () => {
     return(
-        <h1>Contact</h1>
+        <Layout>
+            <Navbar />
+        </Layout>
     );
 };
 

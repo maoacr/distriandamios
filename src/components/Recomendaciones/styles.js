@@ -1,9 +1,18 @@
 import styled from 'styled-components';
 
+export const MaxWidth = styled.div`
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+`
+
 export const FeedbackCards = styled.div`
-  margin-bottom: 30px;
+  margin: 50px 0;
   @media screen and (min-width: 768px) {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
   }
 `
 
@@ -21,6 +30,7 @@ export const FeedbackCard =  styled.div`
     width: 30%;
     height: 200px;
     padding-top: 15px;
+    margin: 0 20px
   }
   
 

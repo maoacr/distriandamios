@@ -10,6 +10,7 @@ export const LinkCard = styled.a`
 
 export const CardWrapper = styled.div`
   width: 90%;
+  max-width: 1200px;
   height: 90px;
   border-radius: 10px;
   display: flex;

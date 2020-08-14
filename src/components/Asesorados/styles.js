@@ -7,7 +7,8 @@ export const Container = styled.div`
   position: relative;
   margin: 0;
   overflow: scroll;
-  margin: 0 0;
+  margin: 50px auto 0;
+  max-width: 1440px;
   `
 export const Carousel = styled.div`
   width: 235%;

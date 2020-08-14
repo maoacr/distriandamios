@@ -41,7 +41,7 @@ const Navbar = () => {
                     : (
                         <MenuMobile>
                             <HeaderMenu>
-                                <LogotipoMenu src={Logo} alt='Logo de Distriandamios' />
+                                <a href='/' ><LogotipoMenu src={Logo} alt='Logo de Distriandamios' /></a>
                                 <HamburguerClose onClick={handleMenu} src={HambClose} alt='Menu  hamburguesa'></HamburguerClose>
                             </HeaderMenu>
                             <MenuItems2>
