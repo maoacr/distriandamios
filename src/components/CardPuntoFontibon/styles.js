@@ -71,7 +71,7 @@ export const ButtonMap = styled.button`
   width: 100%;
   padding: 12px 32px;
   border: none;
-  background-color: ${Colors.mainRed};
+  background-color: ${Colors.grayColor};
   color: ${Colors.white};
   overflow: hidden;
   font-weight: bold;
@@ -81,7 +81,7 @@ export const ButtonWrite = styled.button`
   width: 100%;
   padding: 12px 32px;
   border: none;
-  background-color: #128c7e;
+  background-color: #00bb2d;
   color: white;
   font-weight: bold;
   cursor: pointer;
