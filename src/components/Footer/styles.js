@@ -17,6 +17,7 @@ export const FooterContainer = styled.footer`
   background: linear-gradient(135deg, #e11432 0%, #92272c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e11432', endColorstr='#92272c', GradientType=1 );
   color: ${Colors.white};
+  text-align: center;
 `
 export const Rrss = styled.div`
   width: 100%;

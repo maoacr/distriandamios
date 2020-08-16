@@ -1,7 +1,7 @@
 import React from 'react';
 
 import servicios from '../../assets/servicios.png';
-import { CardWrapper, Andamio, Description, Family, Type, LinkCard } from './styles';
+import { CardWrapper, Andamio, Description, Type, LinkCard } from './styles';
 
 export const Cardservicios = () => {
 

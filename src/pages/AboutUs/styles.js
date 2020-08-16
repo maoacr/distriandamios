@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Layout = styled.div`
   display: flex;
-  text-align: center;
   flex-direction: column;
 `
 
