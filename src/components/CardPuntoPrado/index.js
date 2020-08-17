@@ -7,6 +7,7 @@ import { LinkCard, CardWrapper, Description, Barrio, Direccion, Map, ButtonMap, 
 
 const Go = 'https://goo.gl/maps/SYoAHqoXvmktngcq6';
 const Escribir = 'https://wa.link/pibjbd'
+
 const CardPuntoPrado = () => {
   return(
     <LinkCard href={Go}>
