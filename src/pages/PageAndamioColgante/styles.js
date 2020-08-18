@@ -21,6 +21,9 @@ export const Titulo = styled.h1`
 export const Subtitulo = styled.h3`
   margin: 10px 30px 30px;
 `
+export const Subcategoria = styled.h3`
+  margin: 50px 30px 20px ;
+`
 export const Descripcion = styled.p`
   margin: 0 30px 0;
 

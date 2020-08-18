@@ -19,13 +19,20 @@ export const FeedbackCards = styled.div`
 export const FeedbackCard =  styled.div`
   display: flex;
   width: 90%;
-  height: 150px;
+  height: 180px;
   border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
   box-shadow: 5px 5px 5px #e7e7e7;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   @media screen and (min-width: 768px) {
+    display: block;
+    width: 30%;
+    height: 220px;
+    padding-top: 15px;
+    margin: 0 20px
+  }
+  @media screen and (min-width: 1280px) {
     display: block;
     width: 30%;
     height: 200px;
@@ -37,7 +44,6 @@ export const FeedbackCard =  styled.div`
 `
 export const Photo = styled.img`
   height: 65%;
-  border-radius: 50%;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 4%;

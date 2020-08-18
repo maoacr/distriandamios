@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Escaleras from '../../assets/escalera.jpg';
+import Asesoria from '../../assets/asesoria.jpg';
+
 import { CardWrapper, Andamio, Description, Type, LinkCard } from './styles';
 
 export const CardAsesoria = () => {
@@ -8,7 +9,7 @@ export const CardAsesoria = () => {
   return(
     <LinkCard href="https://wa.link/ljf0jd">
       <CardWrapper>
-        <Andamio src={Escaleras} alt="Escaleras"></Andamio>
+        <Andamio src={Asesoria} alt="Asesoria"></Andamio>
         <Description>
           <Type>Asesoria</Type>
         </Description>

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Layout, Data, Titulo, Descripcion, FotoContainer,Foto, Buttons, ButtonServicio, ButtonDocs, Link, Subtitulo } from './styles';
+import { Layout, Data, Titulo, Descripcion, FotoContainer,Foto, Buttons, ButtonServicio, ButtonDocs, Link, Subtitulo, Subcategoria } from './styles';
 
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import Divider from '../../components/Divider';
 
 import Team from '../../assets/team-distrtiandamios.jpg';
-import Documentacion from '../../assets/manual-de-uso-andamio-convencional.pdf';
+import Documentacion from '../../assets/manual-de-uso-andamio-colgante.pdf';
 
 const PageAndamioColgante = () => {
   return(
@@ -19,7 +19,15 @@ const PageAndamioColgante = () => {
         </FotoContainer>    
         <Data>
             <Descripcion>
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                Equipos auxiliares suspendidos de cables o sirgas, que se desplazan verticalmente por las fachadas mediante un mecanismo de elevación y descenso ; se utilizan para la realización de numerosos trabajos en altura de cerramientos de fachadas de edificios, revocados, etc., así como reparaciones diversas en trabajos de rehabilitación de edificios y limpieza.
+            </Descripcion>
+            <Subcategoria>Mecanismo manual</Subcategoria>
+            <Descripcion>
+                El andamio colgante manual de Distriandamios es un sistema de elevación formado por una plataforma suspendida la cual se encuentra dotada de accesorios que permitan realizar ascenso y descenso de manera segura.
+            </Descripcion>
+            <Subcategoria>Mecanismo eléctrico</Subcategoria>
+            <Descripcion>
+            Es un sistema modular, conformado por estructuras de alta resistencia, de gran ventaja gracias a su sistema de motores eléctricos que permite el ascenso y descenso a través de un cómodo control de mando automatizado.
             </Descripcion>
         </Data>
         <Divider />

@@ -18,20 +18,29 @@ export const Titulo = styled.h1`
   margin: 30px;
 `
 export const Descripcion = styled.p`
-  
   margin: 0 30px 0;
-
 `
 export const FotoContainer = styled.div`
   width: 100%;
-  height: 300px;
+  height: 250px;
   overflow: hidden;
   @media screen and (min-width: 768px) {
     height: 400px;
   }
+  @media screen and (min-width: 1440px) {
+    height: 600px;
+  }
 `
 export const Foto = styled.img`
   width: 100%;
+  @media screen and (min-width: 768px) {
+    position: relative;
+    top: -50px;
+  }
+  @media screen and (min-width: 1280px) {
+    position: relative;
+    top: -250px;
+  }
 `
 export const Buttons = styled.div`
   width: 100%;

@@ -6,7 +6,7 @@ import Footer from '../../components/Footer';
 import Divider from '../../components/Divider';
 
 import Team from '../../assets/team-distrtiandamios.jpg';
-import Documentacion from '../../assets/manual-de-uso-andamio-convencional.pdf';
+import Documentacion from '../../assets/manual-de-uso-andamio-certificado.pdf';
 
 const PageAndamioCertificado = () => {
   return(
@@ -18,7 +18,7 @@ const PageAndamioCertificado = () => {
         </FotoContainer>    
         <Data>
             <Descripcion>
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            Los Andamios Certificados son las estructuras más eficientes para el trabajo en alturas disminuyendo al máximo el riesgo.<br/><br/>Nuestros andamios pueden soportar grandes cantidades de presión y peso, cumpliendo todas las normas técnicas de seguridad.<br/><br/>Andamio multidireccional por piezas, conformado por secuencias de módulos, que permiten ser armados de una manera fácil y rápida, ofreciendo los más altos niveles de seguridad para realizar trabajos en alturas.<br/><br/><br/><br/>Este sistema de andamio multidireccional llamado ring lock es el sistema más seguro y efectivo para trabajos tales como:<br/><br/><br/><br/>1. Mantenimientos de edificios<br/><br/>2. Pintura de extintores<br/><br/>3. Obras civiles<br/><br/>4. Mantenimientos industriales u montajes de escenario
             </Descripcion>
         </Data>
         <Divider />
