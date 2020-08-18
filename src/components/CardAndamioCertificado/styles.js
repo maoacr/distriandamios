@@ -5,23 +5,24 @@ import { Colors } from '../../utils/Constants'
 export const LinkCard = styled.a`
   text-decoration: none;
   cursor: pointer;
-  color: ${Colors.grayColor}; 
+  color: ${Colors.grayColor};
+  margin-bottom: 20px;
 `
 
 export const CardWrapper = styled.div`
   width: 90%;
   max-width: 1200px;
-  height: 90px;
+  height: 130px;
   border-radius: 10px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom:  10px;
+  margin-bottom:  20px;
   box-shadow: 5px 5px 5px #e7e7e7;
 `
 export const Andamio = styled.img`
-  width: 90px;
-  height: 90px;
+  width: 130px;
+  height: 130px;
   border-radius: 10px;
 `
 export const Description = styled.div`
@@ -34,6 +35,6 @@ export const Description = styled.div`
 export const Family = styled.h5`
   margin : 0;
 `
-export const Type = styled.h3`
+export const Type = styled.h2`
   margin: 0;
 `

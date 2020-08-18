@@ -4,19 +4,19 @@ import { Layout, Data, Titulo, Descripcion, FotoContainer,Foto } from './styles'
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-import Team from '../../assets/team-distrtiandamios.jpg';
+import Team from '../../assets/ teamDistriandamios.jpg';
 
 const AboutUs = () => {
     return(
         <Layout>
             <Navbar />
             <Titulo>Nuestro equipo</Titulo>
-            <FotoContainer>                         
+            <FotoContainer>                      
                 <Foto src={Team} alt="Equipo distriandamios" />
             </FotoContainer>    
             <Data>
                 <Descripcion>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                <strong>Distriandamios S.A.S.</strong> <br/><br/>Somos una empresa con años de experiencia en la fabricación, venta y alquiler de andamios de alta calidad certificados, así como tubulares y accesorios complementarios para su uso, contamos con altos índices de calidad tanto en nuestros equipos como en nuestros servicios, además brindamos asesoría en estructuras y seguridad para su proyecto, cumplimos las expectativas del mejor servicio a nuestros clientes tanto en la Capital como a nivel nacional.
                 </Descripcion>
             </Data>
             <Footer />

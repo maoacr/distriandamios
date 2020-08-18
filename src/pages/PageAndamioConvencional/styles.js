@@ -11,7 +11,7 @@ export const Data = styled.div`
   width: 100%;
   max-width: 1200px;
   text-align: left;
-  margin: 40px auto;
+  margin: 30px auto 0;
 `
 
 export const Titulo = styled.h1`
@@ -19,7 +19,7 @@ export const Titulo = styled.h1`
 `
 export const Descripcion = styled.p`
   
-  margin: 30px 30px 100px;
+  margin: 0 30px 0;
 
 `
 export const FotoContainer = styled.div`
@@ -27,7 +27,7 @@ export const FotoContainer = styled.div`
   height: 300px;
   overflow: hidden;
   @media screen and (min-width: 768px) {
-    height: 500px;
+    height: 400px;
   }
 `
 export const Foto = styled.img`
@@ -67,6 +67,7 @@ export const ButtonDocs = styled.button`
   border-radius: 10px;
   color: ${Colors.white};
   background-color: ${Colors.mainRed};
+  margin-bottom: 50px;
   @media screen and (min-width: 768px) {
     width: 100%; 
   }

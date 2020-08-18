@@ -11,22 +11,22 @@ const Recomendaciones = () => {
         <FeedbackCard>
           <Photo src={Mario} alt="Fotografía de cliente" />
           <Recomendacion>
-            <Message>"Esta será una recomendación temporal para efectos de ejemplo"</Message>
-            <small>Mario Crespo | Tribu</small>
+            <Message>"Cumple con la especificación de equipos e infraestructura , permisos y acreditaciones "</Message>
+            <small>IMOCOM</small>
           </Recomendacion>
         </FeedbackCard>
         <FeedbackCard>
           <Photo src={Mario} alt="Fotografía de cliente" />
           <Recomendacion>
-            <Message>"Esta será una recomendación temporal para efectos de ejemplo"</Message>
-            <small>Mario Crespo | Tribu</small>
+            <Message>"Calificamos a Distriandamios como un proveedor óptimo"</Message>
+            <small>Polyuprotec S.A.</small>
           </Recomendacion>
         </FeedbackCard>
         <FeedbackCard>
           <Photo src={Mario} alt="Fotografía de cliente" />
           <Recomendacion>
-            <Message>"Esta será una recomendación temporal para efectos de ejemplo"</Message>
-            <small>Mario Crespo | Tribu</small>
+            <Message>"Excelencia en disponibilidad del producto,tiempos de entrega y calidad"</Message>
+            <small>SUDEIN INC S.A.S.</small>
           </Recomendacion>
         </FeedbackCard>
       </FeedbackCards>

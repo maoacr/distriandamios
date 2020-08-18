@@ -1,8 +1,16 @@
 import React from 'react';
 
+import { Layout, Titulo, Subtitulo } from './styles';
+
+import Navbar from '../../components/Navbar';
+
 const PageSeccionesYPartes = () => {
   return(
-    <h1>Secciones y Partes</h1>
+    <Layout>
+      <Navbar />
+      <Subtitulo>Venta y Alquiler de </Subtitulo>
+      <Titulo>Secciones</Titulo>
+    </Layout>
   );
 }
 

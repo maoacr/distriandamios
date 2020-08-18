@@ -10,7 +10,9 @@ import PageAndamioConvencional from './pages/PageAndamioConvencional';
 import PageAndamioCertificado from './pages/PageAndamioCertificado';
 import PageAndamioColgante from './pages/PageAndamioColgante';
 import PageSeccionesYPartes from './pages/PageSeccionesYPartes';
-
+import PageEscaleras from './pages/PageEscaleras';
+import PageEscaleraExtension from './pages/PageEscaleraExtension';
+import PageEscaleraTijera from './pages/PageEscaleraTijera';
 
 const App = () => {
   return (
@@ -24,6 +26,9 @@ const App = () => {
           <Route path="/andamio-colgante" component={PageAndamioColgante} />
           <Route path="/servicios" component={Servicios}  />
           <Route path="/secciones-y-partes" component={PageSeccionesYPartes} />
+          <Route path="/escaleras" component={PageEscaleras} />
+          <Route path="/escalera-extension" component={PageEscaleraExtension} />
+          <Route path="/escalera-tijera" component={PageEscaleraTijera} />
     </Switch>
   );
 }
