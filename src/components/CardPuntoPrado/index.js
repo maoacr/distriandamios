@@ -6,7 +6,7 @@ import Whatsapp from '../../assets/whatsapp.png';
 import { LinkCard, CardWrapper, Description, Barrio, Direccion, Map, ButtonMap, ButtonWrite, WhatsappIcon, LinkMap, LinkWrite, Extencion, Pbx } from './styles';
 
 const Go = 'https://goo.gl/maps/SYoAHqoXvmktngcq6';
-const Escribir = 'https://wa.link/pibjbd'
+const Escribir = 'https://wa.link/22l5nu'
 
 const CardPuntoPrado = () => {
   return(

@@ -5,9 +5,17 @@ export const Layout = styled.div`
   flex-direction: column;
 `
 export const Titulo = styled.h1`
-  margin-left: 30px;
+  margin: 0 30px 30px;
 `
 
-export const Subtitulo = styled.h5`
-  margin-left: 30px;
+export const Subtitulo = styled.h3`
+  margin: 30px 30px 10px;
+`
+export const SectionsDescription = styled.p`
+  max-width: 1200px;
+  margin: 0 30px 30px;
+
+`
+export const SecondSubtitulo = styled.h3`
+  margin: 0 30px 10px;
 `
